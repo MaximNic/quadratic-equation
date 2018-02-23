@@ -16,7 +16,7 @@ module.exports = function solveEquation(equation) {
   x2=((-b-D)/(2*a)); 
   x1.toFixed();
   x2.toFixed();
-  if (x1<x2)   return [Math.round(x1),Math.round(x2)];
+  //if (x1<x2)   return [Math.round(x1),Math.round(x2)];
   return [Math.round(x2),Math.round(x1)]
   
   
